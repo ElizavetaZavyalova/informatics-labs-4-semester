@@ -1,0 +1,11 @@
+debug/histogram.o
+debug/imagefunctions.o
+debug/imagewidget.o
+debug/main.o
+debug/mainwindow.o
+debug/slider.o
+debug/qrc_image.o
+debug/moc_histogram.o
+debug/moc_imagewidget.o
+debug/moc_mainwindow.o
+debug/moc_slider.o

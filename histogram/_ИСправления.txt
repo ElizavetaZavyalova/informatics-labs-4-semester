@@ -1,0 +1,9 @@
+В функции setHistogramData не хватало еще одного переноса указателя
+	r = *px;
+	g = *++px;
+	b = *++px;
+
+	brightness = ImageFunctions::getBrightness(r, g, b);
+	histogramData[brightness]++;
+
+	px += 2; //< --- здесь теперь все ок.

@@ -1,0 +1,11 @@
+release/histogram.o
+release/imagefunctions.o
+release/imagewidget.o
+release/main.o
+release/mainwindow.o
+release/slider.o
+release/qrc_image.o
+release/moc_histogram.o
+release/moc_imagewidget.o
+release/moc_mainwindow.o
+release/moc_slider.o

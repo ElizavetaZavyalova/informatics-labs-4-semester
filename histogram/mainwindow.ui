@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>Меню</string>
+    </property>
+    <addaction name="autor"/>
+    <addaction name="about"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>Обработка изображения</string>
+    </property>
+    <addaction name="blackwhite"/>
+    <addaction name="inversion"/>
+    <addaction name="porog_1"/>
+    <addaction name="porog_2"/>
+   </widget>
+   <widget class="QMenu" name="menu_3">
+    <property name="title">
+     <string>Яркость</string>
+    </property>
+    <addaction name="porog"/>
+    <addaction name="logorifm"/>
+    <addaction name="piecewise_linear"/>
+    <addaction name="power"/>
+   </widget>
+   <widget class="QMenu" name="menu_4">
+    <property name="title">
+     <string>Гистограмма</string>
+    </property>
+    <addaction name="equalization"/>
+    <addaction name="normal"/>
+   </widget>
+   <widget class="QMenu" name="menu_5">
+    <property name="title">
+     <string>Сохранить</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menu_6">
+    <property name="title">
+     <string>Фильтры</string>
+    </property>
+    <addaction name="averaged"/>
+    <addaction name="median"/>
+    <addaction name="Gaus"/>
+    <addaction name="Loplassian"/>
+    <addaction name="Derivatives_x"/>
+    <addaction name="Sobel_x"/>
+    <addaction name="Shahuro"/>
+    <addaction name="Derivatives_y"/>
+    <addaction name="Sobel_y"/>
+   </widget>
+   <widget class="QMenu" name="menudft">
+    <property name="title">
+     <string>DFT</string>
+    </property>
+    <addaction name="dft"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+   <addaction name="menu_3"/>
+   <addaction name="menu_4"/>
+   <addaction name="menu_5"/>
+   <addaction name="menu_6"/>
+   <addaction name="menudft"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="autor">
+   <property name="text">
+    <string>Автор</string>
+   </property>
+  </action>
+  <action name="about">
+   <property name="text">
+    <string>О программе</string>
+   </property>
+  </action>
+  <action name="blackwhite">
+   <property name="text">
+    <string>Черно-Белое</string>
+   </property>
+  </action>
+  <action name="inversion">
+   <property name="text">
+    <string>Инверсия</string>
+   </property>
+  </action>
+  <action name="porog">
+   <property name="text">
+    <string>Пороговое</string>
+   </property>
+  </action>
+  <action name="logorifm">
+   <property name="text">
+    <string>Логорифмическое</string>
+   </property>
+  </action>
+  <action name="piecewise_linear">
+   <property name="text">
+    <string>Кусочно-Линейное</string>
+   </property>
+  </action>
+  <action name="power">
+   <property name="text">
+    <string>Степенное</string>
+   </property>
+  </action>
+  <action name="equalization">
+   <property name="text">
+    <string>Эквализация</string>
+   </property>
+  </action>
+  <action name="normal">
+   <property name="text">
+    <string>Нормальная</string>
+   </property>
+  </action>
+  <action name="porog_1">
+   <property name="text">
+    <string> Пороговая_1</string>
+   </property>
+  </action>
+  <action name="porog_2">
+   <property name="text">
+    <string>Пороговая_2</string>
+   </property>
+  </action>
+  <action name="dft">
+   <property name="text">
+    <string>DFT</string>
+   </property>
+  </action>
+  <action name="averaged">
+   <property name="text">
+    <string>Усредненный</string>
+   </property>
+  </action>
+  <action name="median">
+   <property name="text">
+    <string>Медианный</string>
+   </property>
+  </action>
+  <action name="Gaus">
+   <property name="text">
+    <string>Гаус</string>
+   </property>
+  </action>
+  <action name="Loplassian">
+   <property name="text">
+    <string>Лопласиан</string>
+   </property>
+  </action>
+  <action name="Derivatives_x">
+   <property name="text">
+    <string>Производные_x</string>
+   </property>
+  </action>
+  <action name="Sobel_x">
+   <property name="text">
+    <string>Собел_x</string>
+   </property>
+  </action>
+  <action name="Shahuro">
+   <property name="text">
+    <string>Шахуро</string>
+   </property>
+  </action>
+  <action name="Derivatives_y">
+   <property name="text">
+    <string>Производные_y</string>
+   </property>
+  </action>
+  <action name="Sobel_y">
+   <property name="text">
+    <string>Собел_y</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
